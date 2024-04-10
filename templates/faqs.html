@@ -5,20 +5,23 @@
 <section id="faqs" class="faqs">
     <div class="container">
         <h2>Read here & learn </h2>
-        <div class="faqs-list" >
-           {% for data in faq_data %}
-                <div class="faq">
-                    <button class="question">
-                        {{ data['question'] }}
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </button>
-                    <div class="answer">
-                        <p>{{ data['answer'] }}</p>
-                    </div>
+        <div class="faqs-list">
+            {% for item in faq_list %}
+            <div class="faq">
+                <button class="question">
+                    {{ item['question'] }}
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="answer">
+                    <p>{{ item['answer'] }}</p>
                 </div>
-            {% endfor %}   
+            </div>
+            {% endfor %}
         </div>
     </div>
 </section>
 
+<div class="questionuser" id="questionuser">
+    <!-- custom user quesiton -->
+</div>
 {% endblock %}
