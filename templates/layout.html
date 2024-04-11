@@ -12,13 +12,13 @@
 <body>
     <header>
         <div class="container">
-            <h2><span>Pilates</span>VitalFlow</h2>
+            <h2 aria-label="Pilates Vital Flow"><span>Pilates</span>VitalFlow</h2>
             <nav id="navbar">
-                <a href="{{ url_for('home') }}">Home</a>
-                <a href="{{ url_for('faqs')}}">FAQS</a>
-                <a href="{{ url_for('nav_item2')}}">Nav2</a>
-                <a href="{{ url_for('nav_item3')}}">Nav3</a>
-                <a href="{{ url_for('nav_item4')}}">Nav4</a>
+                <a href="{{ url_for('home') }}" aria-label="Home" tabindex="1">HOME</a>
+                <a href="{{ url_for('faqs')}}" aria-label="Faqs" tabindex="2">FAQS</a>
+                <a href="{{ url_for('nav_item2')}}" aria-label="nav2" tabindex="3">Nav2</a>
+                <a href="{{ url_for('timetable_events')}}" aria-label="Events Timetable" tabindex="4">EVENT TIMETABLES</a>
+                <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabindex="5">GET IN TOUCH</a>
             </nav>
             <!-- <button class="hamburger">
                 <div class="bar"></div>
@@ -27,11 +27,11 @@
     </header>
 
     <!-- <nav class="mobile-nav">
-        <a href="{{ url_for('home') }}">Home</a>
-        <a href="{{ url_for('faqs')}}">FAQS</a>
-        <a href="{{ url_for('nav_item2')}}">Nav-Item-2</a>
-        <a href="{{ url_for('nav_item3')}}">Nav-Item-3</a>
-        <a href="{{ url_for('nav_item4')}}">Nav-Item-4</a>
+        <a href="{{ url_for('home') }}" aria-label="Home" tabindex="6">HOME</a>
+        <a href="{{ url_for('faqs')}}" aria-label="Faqs" tabindex="7">FAQS</a>
+        <a href="{{ url_for('nav_item2')}}" aria-label="nav2" tabindex="8">Nav-Item-2</a>
+        <a href="{{ url_for('timetable_events')}}" aria-label="Event Timetable" tabindex="9">EVENT TIMETABLES</a>
+        <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabinex="10">GET IN TOUCH</a>
     </nav> -->
 
     <main>
@@ -43,18 +43,18 @@
 
     <footer>
         <div class="container">
-            <div class="copy-text">
+            <div class="copy-text" aria-label="Copyright">
                 <p>Copyright © 2024, All Right Reserved. Built By Irene Martin Campo</p>
             </div>
 
         <div class="icon-grid">
-            <a href="https://www.facebook.com">
+            <a href="https://www.facebook.com" aria-label="Facebook" tabindex="11">
                 <i class="fab fa-facebook-f"></i> </a>
-            <a href="https://www.instagram.com">
+            <a href="https://www.instagram.com" aria-label="Instagram" tabindex="12">
                 <i class="fab fa-instagram"></i> </a>
-            <a href="https://twitter.com">
+            <a href="https://twitter.com" aria-label="Twitter" tabindex="13">
                 <i class="fab fa-twitter"></i> </a>
-            <a href="https://github.com/Irenetitor">
+            <a href="https://github.com/Irenetitor" aria-label="GitHub" tabindex="14">
                 <i class="fab fa-github"></i></a>
         </div>
     </footer>

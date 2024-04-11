@@ -15,13 +15,13 @@ def faqs():
 def nav_item2():
     return render_template('nav2.html')
 
-@app.route('/nav-item3')
-def nav_item3():
-    return render_template('nav3.html')
+@app.route('/timetable-events')
+def timetable_events():
+    return render_template('timetable-events.html')
 
-@app.route('/nav-item4')
-def nav_item4():
-    return render_template('nav4.html')
+@app.route('/get-in-touch')
+def get_in_touch():
+    return render_template('getintouch.html')
 
 # Return a list of dictionary containing FAQ data
 def get_faq_list():
