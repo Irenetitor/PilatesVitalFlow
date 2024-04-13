@@ -1,15 +1,29 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request, redirect, url_for
 
 app = Flask(__name__)
+
+user_question_list = []
 
 @app.route('/')
 def home():
     return render_template('home.html')
 
-@app.route('/faqs')
+@app.route('/faqs', methods=['GET', 'POST'])
 def faqs():
     faq_list = get_faq_list()
-    return render_template('faqs.html', faq_list=faq_list)
+    print(request.method)
+    if (request.method == 'POST'):
+        question=request.form.get('user-question-text')
+        print(question)
+        user_question_list.append(question)
+        return redirect(url_for('faqs_list'))
+    
+    return render_template('faqs.html', faq_list=faq_list, user_question_list=user_question_list)
+
+@app.route('/faqs-list')
+def faqs_list():
+    faq_list = get_faq_list()
+    return render_template('faqs-list.html', faq_list=faq_list, user_question_list=user_question_list)
 
 @app.route('/exercises')
 def exercises():
