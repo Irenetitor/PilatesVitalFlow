@@ -1,10 +1,19 @@
 {% extends "layout.html" %}
 
 {% block content %}
-
+<section id="faq-banner" class="faq-banner">
+    <div class="container"> 
+    </div>
+</section>
 <section id="faqs" class="faqs" aria-labelledby="faq-heading">
     <div class="container">
-        <h2 id="faq-heading">Read here & learn </h2>
+        <div class="dual-header">
+            <h2 id="faq-heading">Read Here & Learn</h2>
+            <div class="separator-wrap">
+                <span class="separator separator-one"></span>
+                <span class="separator separator-two"></span>
+            </div>		 
+        </div>
         <div class="faqs-list">
             {% for item in faq_list %}
             <div class="faq">

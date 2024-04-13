@@ -217,7 +217,7 @@ main section.banner {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url("../images/header.jpg");
+    background-image: url("../images/banner_general.jpg");
     background-position: top left;
     background-size: cover;
 }
@@ -455,6 +455,70 @@ main section.destinations .container .destinations-grid .destination .content p 
 /* END - style for destinations section 3 */
 
 /* START - style for faqs section 4 */
+main section.faq-banner {
+    color: #ffffff;
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../img/banner_general.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+main section.faq-banner:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    /* background-color:  #112f00e0; */
+    opacity: 0.8
+}
+
+main section.faq-banner .container {
+    position: relative;
+    z-index: 1
+}
+
+main section .container .dual-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main section .container .dual-header h2 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+main section .container .dual-header .separator-wrap {
+width: 100%;
+display: flex;
+justify-content: center;
+margin-bottom:2em;
+}
+
+.separator {
+    width: 15%;
+    height: 5px;
+    display: block;
+    margin: 0;
+}
+
+.separator-one {
+    background-color: darkblue
+}
+
+.separator-two{
+    background-color: rgb(247, 220, 170)
+}
+
 main section.faqs {
     background-color: #eee;
     padding-top: 64px;

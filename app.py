@@ -11,13 +11,13 @@ def faqs():
     faq_list = get_faq_list()
     return render_template('faqs.html', faq_list=faq_list)
 
-@app.route('/nav-item2')
-def nav_item2():
-    return render_template('nav2.html')
+@app.route('/exercises')
+def exercises():
+    return render_template('exercises.html')
 
-@app.route('/timetable-events')
-def timetable_events():
-    return render_template('timetable-events.html')
+@app.route('/find-your-style')
+def find_your_style():
+    return render_template('find-your-style.html')
 
 @app.route('/get-in-touch')
 def get_in_touch():
