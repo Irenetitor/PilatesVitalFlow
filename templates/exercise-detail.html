@@ -1,0 +1,104 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<section id="exercise-banner" class="banner exercise-banner">
+    <div class="container"> 
+    </div>
+</section>
+
+<section id="exercise" class="exercises" aria-labelledby="exercise-heading">
+    <div class="container">
+
+        <div class="dual-header">
+            <h2 id="exercise-heading">Learn more about - <span class="exercise-title">{{ exercise.title }}</span></h2>
+            <div class="separator-wrap">
+                <span class="separator separator-one"></span>
+                <span class="separator separator-two"></span>
+            </div>		 
+        </div>
+        <h3 class="exercise-name">{{ exercise.name }}</h3><br>
+        <div class="exercise-detail-grid">
+
+            {% if exercise.level.intermediate|length > 0 %}
+            <div class="exercise-detail">
+                <figure class="img-box">
+                    <img src="..\static\img\exercises\{{exercise.id}}\Explanation.jpeg" alt="" class="img" />
+                </figure>
+                <div class="content">
+                    <h3>Explanation</h3>
+                    <ol>
+                        {% for item in exercise.explanation %}
+                        <li> {{ item }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            {% endif %}
+
+            <div class="exercise-detail">
+                <figure class="img-box">
+                    <img src="..\static\img\exercises\{{exercise.id}}\beginner.jpeg" alt="" class="img" />
+                </figure>
+                <div class="content">
+                    <h3>Beginner Level</h3>
+                    <ol>
+                        {% for item in exercise.level.beginner %}
+                        <li> {{ item }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            {% if exercise.level.intermediate|length > 0 %}
+            <div class="exercise-detail">
+                <figure class="img-box">
+                    <img src="..\static\img\exercises\{{exercise.id}}\intermediate.jpeg" alt="" class="img" />
+                </figure>
+                <div class="content">
+                    <h3>Intermediate Level</h3>
+                    <ol>
+                        {% for item in exercise.level.intermediate %}
+                        <li> {{ item }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            {% endif %}
+
+            {% if exercise.level.advanced|length > 0 %}
+            <div class="exercise-detail">
+                <figure class="img-box">
+                    <img src="..\static\img\exercises\{{exercise.id}}\advanced.jpeg" alt="" class="img" />
+                </figure>
+                <div class="content">
+                    <h3>Advanced Level</h3>
+                    <ol>
+                        {% for item in exercise.level.advanced %}
+                        <li> {{ item }}</li>
+                        {% endfor %}
+                    </ol>
+                </div>
+            </div>
+            {% endif %}
+            
+            <div class="exercise-detail">
+                <figure class="img-box">
+                    <img src="..\static\img\exercises\{{exercise.id}}\breathing.jpeg" alt="" class="img" />
+                </figure>
+                <div class="content">
+                    <h3>Breathing technique</h3>
+                    <ol>
+                        {% for item in exercise.breathing_technique %}
+                        <li> {{ item }}</li>
+                        {% endfor %}
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="exercise-list">
+
+        </div>
+    </div>
+</section>
+{% endblock %}

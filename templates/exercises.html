@@ -16,36 +16,25 @@
                 <span class="separator separator-two"></span>
             </div>		 
         </div>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <p>.</p>
-        <div class="exercise-list">
+        
+        <div class="exercises-grid">
+            {% for exercise in exercise_list %}
+                <div class="exercise">
+                    <img src="../static/img/banner_general.jpg" alt="" class="content-img" />
+                    <div class="content">
 
+                        <div class="exercise-title">
+                            <h3 >{{ exercise.title }}</h3>
+                        </div>
+
+                        <div class="description">
+                            <p> {{ exercise.name }} </p>
+                            <a href="{{ url_for('exercise_detail', exercise_id=loop.index0 ) }}" class="button">Learn more</a>
+                        </div>
+
+                    </div>
+                </div>
+            {% endfor %}
         </div>
     </div>
 </section>

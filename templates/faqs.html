@@ -30,6 +30,7 @@
     </div>
 </section>
 
+{% if user_question_list|length > 0 %}
 <section id="faqs" class="faqs" aria-labelledby="faq-heading">
     <div class="container">
         <div class="dual-header">
@@ -54,6 +55,7 @@
         </div>
     </div>
 </section>
+{% endif %}
 
 <section id="question-form" class="faqs">
     <div class="container">

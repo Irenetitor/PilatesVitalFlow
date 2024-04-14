@@ -311,187 +311,6 @@ main section.home-banner {
 
 /* END - style for Home Page */
 
-/* START - style for benefits section 2 */
-main section.benefits {
-    background-color: #eee;
-    padding-top: 64px;
-}
-
-main section.benefits .container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-main section.benefits .container .benefits-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
-}
-
-@media (max-width: 1024px) {
-    main section.benefits {
-        padding-top: 64px;
-    }
-    
-    main section.benefits .container .benefits-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    main section.benefits .container .benefits-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-main section.benefits .container .benefits-grid .benefit {
-    background-color: #568963a8;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0px 6px 12px rgba(95, 1, 130, 0.5);
-}
-
-
-main section.benefits .container .benefits-grid .benefit .img-box {
-    display: block;
-    width: 100%;
-    border-bottom: 5px solid rgba(247, 49, 214, 0.869);
-}
-
-main section.benefits .container .benefits-grid .benefit .img-box .img {
-    display: block;
-    width: 100%;
-    height: 398px;
-    object-fit: cover;
-}
-
-main section.benefits .container .benefits-grid .benefit .content {
-    padding: 16px;
-    font-size: 1em;
-}
-
-main section.benefits .container .benefits-grid .benefit .content ul {
-    padding-left: 20px;
-}
-
-@media (max-width: 1268px) {
-    main section.benefits .container .benefits-grid .benefit .content ul li {
-        font-size: 0.8em;
-    }
-}
-
-@media (max-width: 1024px) {
-    main section.benefits .container .benefits-grid .benefit .content ul li {
-        font-size: 0.9em;
-    }
-}
-/* END - style for benefits section 2 */
-
-/* START - style for destinations section 3 */
-main section.destinations {
-    padding-top: 64px;
-}
-
-main section.destinations .container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-main section.destinations .container .destinations-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
-}
-
-@media (max-width: 1024px) {
-    main section.destinations {
-        padding-top: 64px;
-    }
-    main section.destinations .container .destinations-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 767px) {
-    main section.destinations .container .destinations-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-main section.destinations .container .destinations-grid .destination {
-    border-radius: 20px;
-    overflow: hidden;
-    position: relative;
-}
-
-main section.destinations .container .destinations-grid .destination .content-img {
-z-index: 80;
-object-fit: cover;
-width: 100%;
-height: 350px;
-display: block;
-}
-
-main section.destinations .container .destinations-grid .destination .content {
-    opacity: 0;
-    color: #fff;
-    padding: 16px;
-    background-color: #435e33d3;
-    transition: 0.5s;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 90;
-    height: 100%;
-    display: block;
-}
-
-main section.destinations .container .destinations-grid .destination:hover .content {
-    opacity: 1;
-}
-
-main section.destinations .container .destinations-grid .destination .content h3 {
-    font-size: 1.5em;
-    margin-bottom: 16px;
-}
-
-main section.destinations .container .destinations-grid .destination .content p {
-    font-size: 1em;
-    margin-bottom: 16px;
-}
-
-@media (max-width: 1268px) {
-    main section.destinations .container .destinations-grid .destination .content p {
-        font-size: 0.8em;
-    }
-}
-
-
-@media (max-width:1024px) {
-    main section.destinations .container .destinations-grid .destination .content h3 {
-        font-size: 1em;
-    }
-
-    main section.destinations .container .destinations-grid .destination .content p {
-        font-size: 0.9em;
-    } 
-}
-
-@media (max-width:512px) {
-    main section.destinations .container .destinations-grid .destination .content h3 {
-        font-size: 0.9em;
-    }
-
-    main section.destinations .container .destinations-grid .destination .content p {
-        font-size: 0.7em;
-    } 
-    main section.destinations .container .destinations-grid .destination .content a {
-        font-size: 0.8em;
-    } 
-}
-/* END - style for destinations section 3 */
-
 /* START - style for faqs page*/
 main section.faq-banner {
     min-height: 60vh;
@@ -560,31 +379,6 @@ main section.faqs .container .faqs-list .faq .answer p {
     line-height: 1.4;
 }
 
-
-
-/* main section.faqs .container .faqs-list .faq .img-box {
-    display: block;
-    border-right: 5px solid rgba(247, 49, 214, 0.869);
-    height: 100%;
-} */
-
-/* main section.faqs .container .faqs-list .faq .img-box .img {
-    display: block;
-    object-fit: cover;
-    height: 100%;
-    width: 200px; 
-} */
-
-/* main section.faqs .container .faqs-list .faq .content {
-    padding: 16px;;
-} */
-
-/* main section.faqs .container .faqs-list .faq .content ul li {
-    padding-top: 9px;
-    margin-left: 16px;
-    font-size: 1em;
-} */
-
 @media (max-width: 1268px) {
     /* main section.faqs .container .faqs-list .faq .content ul li {
         font-size: 0.8em;
@@ -595,39 +389,14 @@ main section.faqs .container .faqs-list .faq .answer p {
     main section.faqs {
         padding-top: 64px;
     }
-    /* main section.faqs .container .faqs-list .faq .content ul li {
-        font-size: 0.9em;
-    } */
 }
 
 @media (max-width:512px) {
     main section.faqs .container .faqs-list .faq {
         display: inline;
     }
-    
-    /* main section.faqs .container .faqs-list .faq .img-box {
-        border-right: 0px;
-        width: 100%;
-        height: 105px;
-        border-bottom: 5px solid rgba(247, 49, 214, 0.869);
-    } */
-    
-    /* main section.faqs .container .faqs-list .faq .img-box .img {
-        width: 100%;
-        height: 100px;
-    } */
-
-    /* main section.faqs .container .faqs-list .faq .content h3 {
-        font-size: 0.9em;
-    } */
-
-    /* main section.faqs .container .faqs-list .faq .content ul li {
-        font-size: 0.7em;
-    } */
 }
 /* END - style for faqs page */
-
-
 
 /* START - style for Exercise page */
 main section.exercise-banner {
@@ -645,8 +414,170 @@ main section.exercises .container{
     padding-bottom: 64px;
 }
 
+main section.exercises .container .exercises-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+main section.exercises .container .exercises-grid .exercise {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+main section.exercises .container .exercises-grid .exercise .content-img {
+    z-index: 80;
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    display: block;
+}
+
+main section.exercises .container .exercises-grid .exercise .content {
+    /* opacity: 0; */
+    color: #fff;
+    /* padding: 16px; */
+    transition: 0.5s;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    height: 100%;
+    display: block;
+}
+
+main section.exercises .container .exercises-grid .exercise .content .exercise-title{
+    opacity: 1;
+    background-color: #00172fe0;
+    padding: 16px;
+}
+
+main section.exercises .container .exercises-grid .exercise .content .description{
+    opacity: 0;
+    padding: 16px;
+}
+
+main section.exercises .container .exercises-grid .exercise:hover .content {
+    opacity: 1;
+    padding: 16px;
+    background-color: #00172fe0;
+}
+
+main section.exercises .container .exercises-grid .exercise:hover .content .exercise-title{
+    border-radius: 20px;
+}
+
+main section.exercises .container .exercises-grid .exercise:hover .content .description{
+    opacity: 1;
+}
+
+/* main section.exercises .container .exercises-grid .exercise .content .exercise-title h3 {
+    font-size: 1.5em;
+    margin: 0 0;
+    background-color: #00172fe0;
+    margin-bottom: 16px;
+} */
+
+main section.exercises .container .exercises-grid .exercise .content p {
+    font-size: 1em;
+    margin-bottom: 16px;
+}
+
 /* END - style for Exercise page */
 
+
+/* STRAT - style for Exercise detail page */
+main section.exercises .container .exercise-title {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+main section.exercises .container .exercise-name {
+    font-size: 1.4em;
+    text-align: center;
+    font-style: italic;
+}
+
+main section.exercises .container .exercise-detail-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 16px;
+}
+
+main section.exercises .container .exercise-detail-grid .exercise-detail {
+    background-color: #e3f1fe;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 12px rgba(58, 11, 75, 0.5);
+    display: flex;
+}
+
+main section.exercises .container .exercise-detail-grid .exercise-detail .img-box {
+    display: block;
+    border-right: 5px solid #f37d2a;
+    height: 100%;
+}
+
+main section.exercises .container .exercise-detail-grid .exercise-detail .img-box .img {
+    display: block;
+    object-fit: cover;
+    height: 100%;
+    width: 200px; 
+}
+
+main section.exercises .container .exercise-detail-grid .exercise-detail .content {
+    padding: 16px;;
+}
+
+main section.exercises .container .exercise-detail-grid .exercise-detail .content ol li {
+    padding-top: 9px;
+    margin-left: 16px;
+    font-size: 1em;
+}
+
+@media (max-width: 1268px) {
+    main section.tips .container .exercise-detail-grid .exercise-detail .content ul li {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width:1024px) {
+    main section.tips {
+        padding-top: 64px;
+    }
+    main section.tips .container .exercise-detail-grid .exercise-detail .content ul li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width:512px) {
+    main section.tips .container .exercise-detail-grid .exercise-detail {
+        display: inline;
+    }
+    
+    main section.tips .container .exercise-detail-grid .exercise-detail .img-box {
+        border-right: 0px;
+        width: 100%;
+        height: 105px;
+        border-bottom: 5px solid #f37d2a;
+    }
+    
+    main section.tips .container .exercise-detail-grid .exercise-detail .img-box .img {
+        width: 100%;
+        height: 100px;
+    }
+
+    main section.tips .container .exercise-detail-grid .exercise-detail .content h3 {
+        font-size: 0.9em;
+    }
+
+    main section.tips .container .exercise-detail-grid .exercise-detail .content ul li {
+        font-size: 0.7em;
+    }
+}
+/* END - style for Exercise detail page */
 
 /* START - style for Find Your Style page */
 main section.styles-banner {
@@ -662,6 +593,69 @@ main section.styles {
 main section.styles .container{
     padding-top: 64px;
     padding-bottom: 64px;
+}
+
+main section.styles .container .materials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 16px;
+}
+
+@media (max-width: 1024px) {
+    main section.materials {
+        padding-top: 64px;
+    }
+    
+    main section.materials .container .materials-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    main section.materials .container .materials-grid {
+        grid-template-columns: 2fr;
+    }
+}
+
+main section.styles .container .materials-grid .material {
+    background-color: #e3f1fe;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 12px rgba(15, 6, 118, 0.476);
+}
+
+main section.styles .container .materials-grid .material .img-box {
+    display: block;
+    width: 100%;
+    border-bottom: 5px solid #f37d2a;
+}
+
+main section.styles .container .materials-grid .material .img-box .img {
+    display: block;
+    width: 100%;
+    height: 398px;
+    object-fit: cover;
+}
+
+main section.styles .container .materials-grid .material .content {
+    padding: 16px;
+    font-size: 1em;
+}
+
+main section.styles .container .materials-grid .material .content ul {
+    padding-left: 20px;
+}
+
+@media (max-width: 1268px) {
+    main section.styles .container .materials-grid .material .content ul li {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 1024px) {
+    main section.styles .container .materials-grid .material .content ul li {
+        font-size: 0.9em;
+    }
 }
 
 /* END - style for Find Your Style page */
@@ -683,74 +677,6 @@ main section.contacts .container{
 }
 
 /* END - style for Get in touch page */
-
-/* START - style for contact section 5 */
-main .contact {
-    background-color:  #366918;
-}
-
-main section.contact .container {
-    padding-top: 64px;
-    padding-bottom: 64px;
-}
-
-main section.contact .container h2 {
-    color: #fff;
-}
-
-main section.contact .container form {
-    margin: 0 auto;
-    max-width: 680px;
-}
-
-main section.contact .container form .form-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
-    margin-bottom: 16px;
-}
-
-@media (max-width:767px) {
-    main section.contact .container form .form-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-main section.contact .container form .form-grid .form-input, 
-main section.contact .container form .form-grid .form-textarea {
-    appearance: none;
-    border: none;
-    outline: none;
-    border-radius: 8px;
-    padding: 16px;
-    font-size: 1em;
-    color: #313131;
-}
-
-main section.contact .container form .form-grid .form-textarea {
-    grid-column: 1/-1;
-}
-
-main section.contact .container form .form-grid .form-input::placeholder, 
-main section.contact .container form .form-grid .form-textarea::placeholder{
-    color: #aaa;
-}
-
-main section.contact form .submit-btn {
-    text-align: right;
-}
-
-main section.contact form .submit-btn input{
-    font-size: 0.8em;
-}
-
-main section.contact form .status-message {
-    text-align: center;
-    color:rgb(95, 3, 3);
-    margin-top: 10px;
-
-}
-/* END - style for contact section 5 */
 
 /* START - style for footer section  */
 footer {
