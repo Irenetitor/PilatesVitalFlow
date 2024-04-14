@@ -14,25 +14,25 @@
         <div class="container">
             <h2 aria-label="Pilates Vital Flow"><span>Pilates</span>VitalFlow</h2>
             <nav id="navbar">
-                <a href="{{ url_for('home') }}" aria-label="Home" tabindex="1">HOME</a>
+                <a href="{{ url_for('home') }}" aria-label="Home" tabindex="1">Home</a>
                 <a href="{{ url_for('faqs')}}" aria-label="Faqs" tabindex="2">FAQS</a>
-                <a href="{{ url_for('exercises')}}" aria-label="exercises" tabindex="3">EXERCISES</a>
-                <a href="{{ url_for('find_your_style')}}" aria-label="Find your Style" tabindex="4">FIND YOUR STYLE</a>
-                <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabindex="5">GET IN TOUCH</a>
+                <a href="{{ url_for('exercises')}}" aria-label="exercises" tabindex="3">Exercises</a>
+                <a href="{{ url_for('find_your_style')}}" aria-label="Find your Style" tabindex="4">Find Your Style</a>
+                <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabindex="5">Get In Touch</a>
             </nav>
-            <!-- <button class="hamburger">
+            <button class="hamburger">
                 <div class="bar"></div>
-            </button> -->
+            </button>
         </div>
     </header>
 
-    <!-- <nav class="mobile-nav">
-        <a href="{{ url_for('home') }}" aria-label="Home" tabindex="6">HOME</a>
+    <nav class="mobile-nav">
+        <a href="{{ url_for('home') }}" aria-label="Home" tabindex="6">Home</a>
         <a href="{{ url_for('faqs')}}" aria-label="Faqs" tabindex="7">FAQS</a>
-        <a href="{{ url_for('exercises')}}" aria-label="exercises" tabindex="8">EXERCISES</a>
-        <a href="{{ url_for('find_your_style')}}" aria-label="Find your Style" tabindex="9">FIND YOUR STYLE</a>
-        <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabinex="10">GET IN TOUCH</a>
-    </nav> -->
+        <a href="{{ url_for('exercises')}}" aria-label="exercises" tabindex="8">Exercises</a>
+        <a href="{{ url_for('find_your_style')}}" aria-label="Find your Style" tabindex="9">Find Your Style</a>
+        <a href="{{ url_for('get_in_touch')}}" aria-label="Get in Touch" tabinex="10">Get In Touch</a>
+    </nav>
 
     <main>
         {% block content %}

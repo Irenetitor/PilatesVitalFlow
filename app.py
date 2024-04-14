@@ -35,7 +35,7 @@ def find_your_style():
 
 @app.route('/get-in-touch')
 def get_in_touch():
-    return render_template('getintouch.html')
+    return render_template('get-in-touch.html')
 
 # Return a list of dictionary containing FAQ data
 def get_faq_list():
