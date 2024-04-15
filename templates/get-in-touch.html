@@ -7,32 +7,52 @@
     </div>
 </section>
 
-<section id="contact" class="contact experience" aria-labelledby="contact-heading">
+<section id="contact" class="contact experience" tabindex="0" aria-labelledby="contact-heading">
     <div class="container">
 
         <div class="dual-header">
-            <h2 id="contact-heading">Share your experience</h2>
+            <h2 id="contact-heading">About me</h2>
             <div class="separator-wrap">
                 <span class="separator separator-one"></span>
                 <span class="separator separator-two"></span>
             </div>		 
         </div>
 
-        <!-- <form id="contactForm" onsubmit="return validateContactForm2()">
-            <div class="form-grid">
-                <input type="text" class="form-input" id="name" placeholder="Name">
-                <input type="text" class="form-input" id="email" placeholder="Email">
-                <textarea class="form-textarea" id="message" placeholder="Message"></textarea>
+        <div class="experience">
+            <div class="info">
+                    <figure class="img-box">
+                        <img src="static\img\developer.jpg" alt="Image for developer" class="img" />
+                    </figure>
+                    <div class="content">
+                        <h3>Irene Martin Campo</h3>
+                        <br>
+                        <ul>
+                            <li>I am a certified Pilates trainer with expertise in prenatal Pilates workouts</li>
+                            <li>I have been conducting classes for six years in Spain, catering to clients of all age groups.</li>
+                            <li>Currently, I am studying full-stack web development, and I have created a personal website as part of an assignment</li>
+                        </ul>
+                    </div>
+
             </div>
-            <div class="submit-btn">
-                <input type="submit" value="Submit" class="button">
+            <div class="feedback">
+                <h3 id="contact-heading">Enter your valuable feedback about this website</h3><br>
+                <form id="contactForm2" onsubmit="return validateFeedbackForm()">
+                    <div class="feedback-form-grid">
+                        <input type="text" class="form-input-feedback" id="name-feedback" placeholder="Name" tabindex="1" aria-label="Your Name">
+                        <textarea class="form-textarea-feedback" id="user-feedback" placeholder="Your feedback" tabindex="2" aria-label="Your Feedback"></textarea>
+                    </div>
+                    <div class="submit-btn">
+                        <input type="submit" value="Send" class="button" tabindex="3" aria-label="Submit Form">
+                    </div>
+                    <div id="status-message2" class="status-message"></div>
+                </form>
             </div>
-            <div id="status-message" class="status-message"></div>
-        </form> -->
+        </div>
+
     </div>
 </section>
 
-<section id="contact" class="contact" aria-labelledby="contact-heading">
+<section id="contact" class="contact" tabindex="4" aria-labelledby="contact-heading">
     <div class="container">
 
         <div class="dual-header">
@@ -45,12 +65,12 @@
 
         <form id="contactForm" onsubmit="return validateContactForm()">
             <div class="form-grid">
-                <input type="text" class="form-input" id="name" placeholder="Name">
-                <input type="text" class="form-input" id="email" placeholder="Email">
-                <textarea class="form-textarea" id="message" placeholder="Message"></textarea>
+                <input type="text" class="form-input" id="name" placeholder="Name" tabindex="5" aria-label="Your Name">
+                <input type="text" class="form-input" id="email" placeholder="Email" tabindex="6" aria-label="Your Email">
+                <textarea class="form-textarea" id="message" placeholder="Message" tabindex="7" aria-label="Your Message"></textarea>
             </div>
             <div class="submit-btn">
-                <input type="submit" value="Submit" class="button">
+                <input type="submit" value="Submit" class="button" tabindex="8" aria-label="Submit Form">
             </div>
             <div id="status-message" class="status-message"></div>
         </form>

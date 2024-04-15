@@ -52,6 +52,15 @@ window.onload = function () {
         }
         )
     }
+
+    
+    document.querySelector('.submit-btn input[type="submit"]').addEventListener('keydown', function (event) {
+        if (event.key === 'Enter') {
+            // Prevent the default form submission behavior
+            event.preventDefault();
+        }
+    });
+
 }
 
 function showTab(tabNumber) {
@@ -79,7 +88,7 @@ function validateContactForm() {
     const statusMessageDOM = document.getElementById('status-message');
 
     //validate name
-    const namePattern = /^[A-Za-z]+$/;
+    const namePattern = /^[A-Za-z\s]+$/;
     let inputName = inputTextDOM.value;
     if (inputName.trim() == "") {
         statusMessageDOM.textContent = "Name is empty. Please enter a valid name (letters only)!!"
@@ -100,6 +109,14 @@ function validateContactForm() {
         statusMessageDOM.textContent = "Please enter a valid email address!!"
         return false;
     }   
+
+    // Check for common email providers
+    const commonProviders = ["gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "icloud.com"];
+    const domain = inputEmail.split("@")[1];
+    if (!commonProviders.includes(domain.toLowerCase())) {
+        statusMessageDOM.textContent = `Email provider (${domain}) is not accepted.`
+        return false;
+    }
 
     //validate message
     let inputTextArea = textAreaDOM.value;
