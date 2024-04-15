@@ -10,7 +10,7 @@
     <div class="container">
 
         <div class="dual-header">
-            <h2 id="style-heading">Possible Material</h2>
+            <h2 id="style-heading">Equipment & materials</h2>
             <div class="separator-wrap">
                 <span class="separator separator-one"></span>
                 <span class="separator separator-two"></span>
@@ -18,118 +18,30 @@
         </div>
 
         <div class="materials-grid">
+            {% for material in material_list %}
+            <div class="material">
+                <figure class="img-box">
+                    <img src="static\img\Material\{{material['image']}}" alt="Image for {{material.image}}"
+                        class="img" />
+                </figure>
+                <div class="content">
+                    <h3>{{material['title']}}</h3>
+                    <br>
+                    <ul>
+                        <li>{{material.explanation}}.</li>
+                        <br>
+                        <li> <strong>Benefits:</strong> 
+                            <ol>
+                                {% for item in material['Benefits'] %}
+                                <br><li>{{ item }}</li>
+                                {% endfor %}
+                            </ol>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
 
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Bigball.jpeg" alt="Big-ball-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Big Ball (Swiss Ball or Stability Ball)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The big ball is a large inflatable ball used for stability, balance, and core
-                            work.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Core Activation: Engages deep core muscles.<br>
-                            Balance Training: Enhances stability and proprioception.<br>
-                            Variety: Allows for diverse exercises.<br>
-                            Fun Factor: Adds an element of playfulness to workouts.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Elasticband.jpeg" alt="Elastic-band-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Elastic Band (Resistance Band)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The elastic band, also known as a resistance band, provides adjustable
-                            resistance for strength training.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Versatility: Use it for both upper and lower body exercises. <br>
-                            Portability: Easy to carry and use anywhere. <br>
-                            Toning: Helps tone and strengthen muscles. <br>
-                            Assistance or Resistance: Can be used to assist or challenge movements.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Foamroller.jpeg" alt="Foam-roller-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Foam Roller</h3>
-                    <br><br>
-                    <ul>
-                        <li>The foam roller is a cylindrical tool made of dense foam.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Self-Myofascial Release: Relieves muscle tension and knots. <br>
-                            Stretching Aid: Assists in stretching and improving flexibility. <br>
-                            Core Stability: Challenges balance and core engagement. <br>
-                            Posture Improvement: Helps align the spine.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Ring.jpeg" alt="Ring-Pilates" class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Ring</h3>
-                    <br><br>
-                    <ul>
-                        <li>It’s typically made of flexible material (either rubber or metal) and is shaped
-                            like a ring with two padded handles that you can squeeze or press together.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Toning and Strengthening: Incorporating the Pilates ring into your practice
-                            helps tone and strengthen various muscle groups. <br>
-                            Core Engagement: The ring allows you to specifically target your core, which is
-                            the powerhouse of any Pilates workout. <br>
-                            Versatility: Hundreds of moves can be intensified with the help of a Pilates
-                            ring. <br>
-                            Instability and Resistance: It creates instability, making your muscles work
-                            harder while engaging your core.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Smallball.jpeg" alt="Small-ball-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Small Ball (Mini Ball)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The small ball is a soft, lightweight ball used for targeted muscle activation.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Isolation: Isolates specific muscle groups. <br>
-                            Support: Provides support during challenging exercises. <br>
-                            Pilates Principles: Aligns with precision and control principles. <br>
-                            Variety: Adds variety to mat exercises.
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </div>
   
 </section>
@@ -138,7 +50,7 @@
     <div class="container">
 
         <div class="dual-header">
-            <h2 id="style-heading">Where to Practice</h2>
+            <h2 id="style-heading">Where to Practice - Locations</h2>
             <div class="separator-wrap">
                 <span class="separator separator-one"></span>
                 <span class="separator separator-two"></span>
@@ -146,118 +58,37 @@
         </div>
 
         <div class="materials-grid">
-
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Bigball.jpeg" alt="Big-ball-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Big Ball (Swiss Ball or Stability Ball)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The big ball is a large inflatable ball used for stability, balance, and core
-                            work.
-                        </li>
+                {% for location in location_list %}
+                <div class="material">
+                    <figure class="img-box">
+                        <img src="static\img\location\{{location['image']}}" alt="Image for {{location.image}}"
+                            class="img" />
+                    </figure>
+                    <div class="content">
+                        <h3>{{location['Place']}}</h3>
                         <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Core Activation: Engages deep core muscles.<br>
-                            Balance Training: Enhances stability and proprioception.<br>
-                            Variety: Allows for diverse exercises.<br>
-                            Fun Factor: Adds an element of playfulness to workouts.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Elasticband.jpeg" alt="Elastic-band-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Elastic Band (Resistance Band)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The elastic band, also known as a resistance band, provides adjustable
-                            resistance for strength training.
-                        </li>
+                        <ul>
+                            <li><strong>Benefits:</strong>
+                                <ol>
+                                    {% for (key,val) in location['Benefits'].items() %}
+                                    <br><li>{{ key }} - {{val}}</li>
+                                    {% endfor %}
+                                </ol>
+                            </li>
+                        </ul>
                         <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Versatility: Use it for both upper and lower body exercises. <br>
-                            Portability: Easy to carry and use anywhere. <br>
-                            Toning: Helps tone and strengthen muscles. <br>
-                            Assistance or Resistance: Can be used to assist or challenge movements.
-                        </li>
-                    </ul>
+                        <ul>
+                            <li><strong>Experiences:</strong><br>
+                                <ol>
+                                    {% for (key,val) in location['Feelings'].items() %}
+                                    <br><li>{{ key }} - {{val}}</li>
+                                    {% endfor %}
+                                </ol>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Foamroller.jpeg" alt="Foam-roller-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Foam Roller</h3>
-                    <br><br>
-                    <ul>
-                        <li>The foam roller is a cylindrical tool made of dense foam.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Self-Myofascial Release: Relieves muscle tension and knots. <br>
-                            Stretching Aid: Assists in stretching and improving flexibility. <br>
-                            Core Stability: Challenges balance and core engagement. <br>
-                            Posture Improvement: Helps align the spine.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Ring.jpeg" alt="Ring-Pilates" class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Ring</h3>
-                    <br><br>
-                    <ul>
-                        <li>It’s typically made of flexible material (either rubber or metal) and is shaped
-                            like a ring with two padded handles that you can squeeze or press together.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Toning and Strengthening: Incorporating the Pilates ring into your practice
-                            helps tone and strengthen various muscle groups. <br>
-                            Core Engagement: The ring allows you to specifically target your core, which is
-                            the powerhouse of any Pilates workout. <br>
-                            Versatility: Hundreds of moves can be intensified with the help of a Pilates
-                            ring. <br>
-                            Instability and Resistance: It creates instability, making your muscles work
-                            harder while engaging your core.
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="material">
-                <figure class="img-box">
-                    <img src="static\img\exercises\Material\Smallball.jpeg" alt="Small-ball-Pilates"
-                        class="img" />
-                </figure>
-                <div class="content">
-                    <h3>Small Ball (Mini Ball)</h3>
-                    <br><br>
-                    <ul>
-                        <li>The small ball is a soft, lightweight ball used for targeted muscle activation.
-                        </li>
-                        <br>
-                        <li> <strong>Benefits:</strong> <br>
-                            Isolation: Isolates specific muscle groups. <br>
-                            Support: Provides support during challenging exercises. <br>
-                            Pilates Principles: Aligns with precision and control principles. <br>
-                            Variety: Adds variety to mat exercises.
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                {% endfor %}
         </div> 
 </section>
 

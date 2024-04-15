@@ -6,6 +6,8 @@ app = Flask(__name__)
 faq_list = []        
 exercise_list = []        
 user_question_list = []
+material_list = []
+location_list = []
 
 # Open the JSON file
 with open('faqs.json', 'r') as file:
@@ -14,6 +16,11 @@ with open('faqs.json', 'r') as file:
 
 with open('exercises.json', 'r') as file:
     exercise_data = json.load(file)
+    
+with open('styles.json', 'r') as file:
+    style_data = json.load(file)
+    material_list = style_data['materials']
+    location_list = style_data['locations']
 
 class Exercise:
     def __init__(self, id, title, image, name, explanation, breathing_technique, level):
@@ -99,7 +106,7 @@ def exercise_detail(exercise_id):
 
 @app.route('/find-your-style')
 def find_your_style():
-    return render_template('find-your-style.html')
+    return render_template('find-your-style.html', material_list=material_list, location_list=location_list)
 
 @app.route('/get-in-touch')
 def get_in_touch():

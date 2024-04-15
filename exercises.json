@@ -33,16 +33,15 @@
         "id": "e2",
         "title": "The Roll-up",
         "image": "Roll-up.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Strengthens the abdominal muscles and improves spinal flexibility.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back with legs extended.",
+            "Reach arms overhead.",
+            "Roll up sequentially,reaching for your toes."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you prepare to roll up.",
+            "Exhale as you lift and reach forward."
         ],
         "level": {
             "beginner": [
@@ -50,12 +49,12 @@
                 "Pump your arms gently without lifting the head."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Keep legs extended.",
+                "Roll up smoothly without using hands."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Roll up with straight legs",
+                "Reach for your toes."
             ]
         }
     },
@@ -63,59 +62,57 @@
         "id": "e3",
         "title": "The Roll over",
         "image": "Roll-over.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Enhances spinal articulation and stretches the hamstrings.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back on a mat with your arms along your sides, palms down.",
+            "Keep your neck long, shoulders relaxed, and chest open.",
+            "Inhale and extend your legs straight up toward the ceiling at a 90-degree angle, keeping them together.",
+            "Toes should be pointed.."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you cross the midline (legs up and over).",
+            "Exhale as you complete the circle (lower your legs back to the 90-degree position)."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Bend your knees slightly.",
+                "Use your hands to assist in rolling up."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Keep legs extended.",
+                "Roll up smoothly without using hands."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Roll up with straight legs",
+                "Reach for your toes."
             ]
         }
     },
     {
         "id": "e4",
         "title": "The Single Leg Circles",
-        "image": "The-single-leg-stretch.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "image": "Single-leg-circles.jpeg",
+        "name": "Works the hip flexors and improves hip mobility.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back with one leg extended up.",
+            "Circle the extended leg."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you cross the midline.",
+            "Exhale as you complete the circle."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Bend the non-working leg.",
+                "Make smaller circles."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Keep both legs extended.",
+                "Circle the working leg with control."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Extend both legs.",
+                "Make larger circles."
             ]
         }
     },
@@ -123,29 +120,27 @@
         "id": "e5",
         "title": "The Rolling Like a Ball",
         "image": "Rolling-like-a-ball.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "A fun exercise that massages the spine and challenges balance.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Sit on your mat, knees hugged to chest.",
+            "Balance on your sit bones.",
+            "Roll backward and return to balance."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you roll back.",
+            "Exhale as you return to balance."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Hold your ankles with hands.",
+                "Roll back gently."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Balance on your sit bones without holding ankles.",
+                "Roll back and return to balance."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Add a full roll to a standing position."
             ]
         }
     },
@@ -153,29 +148,27 @@
         "id": "e6",
         "title": "The Single Leg Stretch",
         "image": "The-single-leg-stretch.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Focuses on core stability and leg coordination.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back, knees bent.",
+            "Alternate extending one leg at a time."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you switch legs.",
+            "Exhale as you draw the knee in."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Keep the head down.",
+                "Bend the non-working leg."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Lift the head and shoulders.",
+                "Alternate legs with control."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Extend both legs.",
+                "Maintain the lifted position throughout."
             ]
         }
     },
@@ -183,29 +176,27 @@
         "id": "e7",
         "title": "The Double Leg Stretch",
         "image": "The-double-leg-stretch.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Strengthens the core and promotes flexibility.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back, knees hugged to chest.",
+            "Extend arms and legs simultaneously."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you extend.",
+            "Exhale as you draw back in."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Bend both knees.",
+                "Keep the head down."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Extend both legs.",
+                "Lift the head and shoulders."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Extend both legs.",
+                "Maintain the lifted position throughout."
             ]
         }
     },
@@ -213,29 +204,26 @@
         "id": "e8",
         "title": "Spire Stretch Forward",
         "image": "Spire-stretch-forward.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Stretches the spine and hamstrings.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Sit tall with legs extended.",
+            "Reach forward, lengthening the spine."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale to prepare.",
+            "Exhale as you reach forward."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Sit tall with knees bent.",
+                "Reach forward as far as comfortable."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Keep legs extended.",
+                "Reach forward with a flat back."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Reach forward, aiming to touch your toes."
             ]
         }
     },
@@ -243,29 +231,26 @@
         "id": "e9",
         "title": "Open Leg Rocker",
         "image":"Open-leg-rocker.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "A balance challenge that targets the abdominals.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Sit balanced on your sit bones, legs extended.",
+            "Rock backward and return to balance."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you rock back.",
+            "Exhale as you return to balance."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Hold your ankles with hands.",
+                "Rock back gently."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Balance on your sit bones without holding ankles.",
+                "Rock back and return to balance."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Add a full roll to a standing position."
             ]
         }
     },
@@ -273,29 +258,27 @@
         "id": "e10",
         "title": "Saw",
         "image":"Saw.jpeg",
-        "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
+        "name": "Enhances spinal rotation and coordination.",
         "explanation": [
-            "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
-            "Curl the head and shoulder tips off the floor.",
-            "Pump your arms rhythmically up and down."
+            "Lie on your back, legs extended up.",
+            "Circle legs in a controlled manner."
         ],
         "breathing_technique": [
-            "Inhale deeply through your nose.",
-            "Exhale forcefully through your mouth.",
-            "Coordinate breath with arm pumps."
+            "Inhale as you cross the midline.",
+            "Exhale as you complete the circle."
         ],
         "level": {
             "beginner": [
-                "Keep your head down and feet on the floor.",
-                "Pump your arms gently without lifting the head."
+                "Keep legs bent.",
+                "Make smaller circles."
             ],
             "intermediate": [
-                "Lift your head and shoulders off the mat.",
-                "Extend legs to a tabletop position."
+                "Extend both legs.",
+                "Circle the legs with control."
             ],
             "advanced": [
-                "Extend legs straight up.",
-                "Pump arms vigorously while maintaining the lifted position."
+                "Extend both legs.",
+                "Make larger circles."
             ]
         }
     }
