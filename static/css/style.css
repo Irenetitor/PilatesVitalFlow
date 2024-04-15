@@ -598,13 +598,6 @@ main section.exercises .container .exercises-grid .exercise:hover .content .desc
     opacity: 1;
 }
 
-/* main section.exercises .container .exercises-grid .exercise .content .exercise-title h3 {
-    font-size: 1.5em;
-    margin: 0 0;
-    background-color: #00172fe0;
-    margin-bottom: 16px;
-} */
-
 main section.exercises .container .exercises-grid .exercise .content p {
     font-size: 1em;
     margin-bottom: 16px;
