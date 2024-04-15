@@ -309,6 +309,75 @@ main section.home-banner {
     background-image: url("../img/banner_general.jpg");
 }
 
+main section.reason {
+    padding-top: 3rem;
+}
+main section.reason .container .tab-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3d66fbc3;
+    padding: 2rem;
+}
+
+main section.reason .container .tab-container .tab {
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid #1d2545;
+    border-radius: 0.5rem;
+    background-color: #e7e7ff;
+    transition: background-color 0.3s ease;
+}
+
+main section.reason .container .tab-container .tab:hover {
+    background-color: #ffff;
+}
+
+/* Hide tab content by default */
+main section.reason .container .tab-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid #1d2545;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* Show tab content when tab is active */
+main section.reason .container .tab-container .tab.active {
+    background-color: #ffffff;
+}
+
+main section.reason .container .tab-container .tab.active .tab-content {
+    display: block;
+}
+
+main section.quotes {
+    padding-top: 3rem;
+}
+
+main section.sentence {
+
+}
+
+main section.quotes .quote-container {
+    max-width: 240rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #e8eefa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+main section.quotes .quote-container .quote {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main section.quotes .quote-container .quote .author {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+}
+
 /* END - style for Home Page */
 
 /* START - style for faqs page*/

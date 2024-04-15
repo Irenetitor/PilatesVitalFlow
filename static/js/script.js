@@ -30,7 +30,7 @@ window.onload = function () {
             mobile_nav.classList.remove("is-active");
         }
     });
-
+ 
     // Enabling/Disabling answers and changing background for faq items 
 
     var ques = document.getElementsByClassName("question");
@@ -52,6 +52,21 @@ window.onload = function () {
         }
         )
     }
+}
+
+function showTab(tabNumber) {
+    const tabs = document.querySelectorAll('.tab');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabs.forEach((tab, index) => {
+        if (index + 1 === tabNumber) {
+            tab.classList.add('active');
+            tabContents[index].style.display = 'block';
+        } else {
+            tab.classList.remove('active');
+            tabContents[index].style.display = 'none';
+        }
+    });
 }
 
 function validateContactForm() {
