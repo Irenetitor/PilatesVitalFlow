@@ -2,6 +2,7 @@
     {
         "id": "e1",
         "title": "The Hundred",
+        "image": "Hundred.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -30,7 +31,8 @@
     },
     {
         "id": "e2",
-        "title": "The Hundred",
+        "title": "The Roll-up",
+        "image": "Roll-up.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -58,8 +60,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e3",
+        "title": "The Roll over",
+        "image": "Roll-over.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -87,8 +90,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e4",
+        "title": "The Single Leg Circles",
+        "image": "The-single-leg-stretch.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -116,8 +120,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e5",
+        "title": "The Rolling Like a Ball",
+        "image": "Rolling-like-a-ball.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -145,8 +150,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e6",
+        "title": "The Single Leg Stretch",
+        "image": "The-single-leg-stretch.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -174,8 +180,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e7",
+        "title": "The Double Leg Stretch",
+        "image": "The-double-leg-stretch.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -203,8 +210,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e8",
+        "title": "Spire Stretch Forward",
+        "image": "Spire-stretch-forward.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -232,8 +240,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e9",
+        "title": "Open Leg Rocker",
+        "image":"Open-leg-rocker.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",
@@ -261,8 +270,9 @@
         }
     },
     {
-        "id": "e2",
-        "title": "The Hundred",
+        "id": "e10",
+        "title": "Saw",
+        "image":"Saw.jpeg",
         "name": "A dynamic warm-up exercise that engages the core and boosts circulation.",
         "explanation": [
             "Lie on your back with legs bent in a tabletop position (or extended if more advanced).",

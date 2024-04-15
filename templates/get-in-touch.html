@@ -7,47 +7,53 @@
     </div>
 </section>
 
-<section id="contact" class="contacts" aria-labelledby="contact-heading">
+<section id="contact" class="contact experience" aria-labelledby="contact-heading">
     <div class="container">
 
         <div class="dual-header">
-            <h2 id="contact-heading">Get in Touch</h2>
+            <h2 id="contact-heading">Share your experience</h2>
             <div class="separator-wrap">
                 <span class="separator separator-one"></span>
                 <span class="separator separator-two"></span>
             </div>		 
         </div>
 
-        <div class="contacts-list">
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
-            <p>.</p>
+        <!-- <form id="contactForm" onsubmit="return validateContactForm2()">
+            <div class="form-grid">
+                <input type="text" class="form-input" id="name" placeholder="Name">
+                <input type="text" class="form-input" id="email" placeholder="Email">
+                <textarea class="form-textarea" id="message" placeholder="Message"></textarea>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Submit" class="button">
+            </div>
+            <div id="status-message" class="status-message"></div>
+        </form> -->
+    </div>
+</section>
+
+<section id="contact" class="contact" aria-labelledby="contact-heading">
+    <div class="container">
+
+        <div class="dual-header">
+            <h2 id="contact-heading">Contact</h2>
+            <div class="separator-wrap">
+                <span class="separator separator-one"></span>
+                <span class="separator separator-two"></span>
+            </div>		 
         </div>
+
+        <form id="contactForm" onsubmit="return validateContactForm()">
+            <div class="form-grid">
+                <input type="text" class="form-input" id="name" placeholder="Name">
+                <input type="text" class="form-input" id="email" placeholder="Email">
+                <textarea class="form-textarea" id="message" placeholder="Message"></textarea>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Submit" class="button">
+            </div>
+            <div id="status-message" class="status-message"></div>
+        </form>
     </div>
 </section>
 {% endblock %}

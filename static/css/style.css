@@ -208,8 +208,8 @@ main section.banner {
     color: #ffffff;
     position: relative;
     display: flex;
-    align-items: center;+
-    background-position: top left;
+    align-items: center;
+    background-position: top left; 
     background-size: cover;
 }
 
@@ -322,6 +322,10 @@ main section.faqs {
     padding-top: 64px;
 }
 
+main section.user-faq {
+    padding-top: 0;
+}
+
 main section.faqs .container{
     padding-top: 64px;
     padding-bottom: 64px;
@@ -344,7 +348,7 @@ main section.faqs .container .faqs-list .faq {
 
 .active,
 .question:hover {
-    background-color: rgb(247, 232, 204)
+    background-color: rgb(213, 220, 236);
 }
 
 main section.faqs .container .faqs-list .faq .question {
@@ -368,9 +372,8 @@ main section.faqs .container .faqs-list .faq .question i {
 
 main section.faqs .container .faqs-list .faq .answer {
     padding: 0 2rem 2.5rem 2rem;
-    background-color: rgb(247, 232, 204);
     overflow: hidden;
-    background-color: rgb(247, 232, 204);
+    background-color: rgb(213, 220, 236);
     display: none;
 }
 
@@ -396,7 +399,51 @@ main section.faqs .container .faqs-list .faq .answer p {
         display: inline;
     }
 }
+
+main section.question-form {
+    background-color: #d2e4f1da;
+}
+
+main section.question-form .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+main section.question-form .container form {
+    margin: 0 auto;
+    max-width: 42rem;
+}
+
+main section.question-form .container form .content {
+    margin-bottom: 1rem;
+}
+
+main section.question-form .container form .content .form-textarea {
+    width: 100%;
+    appearance: none;
+    border: none;
+    outline: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1em;
+    color: #313131;
+}
+
+main section.question-form .container form .content .form-textarea::placeholder{
+    color: #aaa;
+}
+
+main section.question-form form .submit-btn {
+    text-align: right;
+}
+
+main section.question-form form .submit-btn input{
+    font-size: 0.8em;
+}
+
 /* END - style for faqs page */
+
+
 
 /* START - style for Exercise page */
 main section.exercise-banner {
@@ -430,7 +477,7 @@ main section.exercises .container .exercises-grid .exercise .content-img {
     z-index: 80;
     object-fit: cover;
     width: 100%;
-    height: 350px;
+    height: 16rem;
     display: block;
 }
 
@@ -486,7 +533,6 @@ main section.exercises .container .exercises-grid .exercise .content p {
 }
 
 /* END - style for Exercise page */
-
 
 /* STRAT - style for Exercise detail page */
 main section.exercises .container .exercise-title {
@@ -595,6 +641,8 @@ main section.styles .container{
     padding-bottom: 64px;
 }
 
+/* START - style for material section */
+
 main section.styles .container .materials-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -657,7 +705,7 @@ main section.styles .container .materials-grid .material .content ul {
         font-size: 0.9em;
     }
 }
-
+/* END - style for material section */
 /* END - style for Find Your Style page */
 
 /* START - style for Get in touch page */
@@ -677,6 +725,74 @@ main section.contacts .container{
 }
 
 /* END - style for Get in touch page */
+
+/* START - style for contact section */
+main .contact {
+    background-color:  rgb(213, 220, 236);
+}
+
+main .experience {
+    background-color:  rgb(255, 255, 255);
+}
+
+main section.contact .container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+main section.contact .container form {
+    margin: 0 auto;
+    max-width: 680px;
+}
+
+main section.contact .container form .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    margin-bottom: 16px;
+}
+
+@media (max-width:767px) {
+    main section.contact .container form .form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+main section.contact .container form .form-grid .form-input, 
+main section.contact .container form .form-grid .form-textarea {
+    appearance: none;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 1em;
+    color: #313131;
+}
+
+main section.contact .container form .form-grid .form-textarea {
+    grid-column: 1/-1;
+}
+
+main section.contact .container form .form-grid .form-input::placeholder, 
+main section.contact .container form .form-grid .form-textarea::placeholder{
+    color: #aaa;
+}
+
+main section.contact form .submit-btn {
+    text-align: right;
+}
+
+main section.contact form .submit-btn input{
+    font-size: 0.8em;
+}
+
+main section.contact form .status-message {
+    text-align: center;
+    color:rgb(95, 3, 3);
+    margin-top: 10px;
+
+}
+/* END - style for contact section */
 
 /* START - style for footer section  */
 footer {

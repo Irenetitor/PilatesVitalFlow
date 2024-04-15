@@ -31,7 +31,7 @@
 </section>
 
 {% if user_question_list|length > 0 %}
-<section id="faqs" class="faqs" aria-labelledby="faq-heading">
+<section id="faqs" class="faqs user-faq" aria-labelledby="faq-heading">
     <div class="container">
         <div class="dual-header">
             <h2 id="faq-heading">User Questions</h2>
@@ -48,7 +48,7 @@
                     <i class="fa-solid fa-chevron-down"></i>
                 </button>
                 <div class="answer">
-                    <p>{{ question }}</p>
+                    <p>will reply soon..</p>
                 </div>
             </div>
             {% endfor %}
@@ -57,16 +57,23 @@
 </section>
 {% endif %}
 
-<section id="question-form" class="faqs">
+<section id="question-form" class="question-form">
     <div class="container">
+        <div class="dual-header">
+            <h2 id="faq-heading">Ask your question</h2>
+            <div class="separator-wrap">
+                <span class="separator separator-one"></span>
+                <span class="separator separator-two"></span>
+            </div>
+        </div>
 
-        <h2>Ask your question</h2>
         <form id="user-question" method="post">
-            <p>
-                <label for="user-question-text">Question</label>
-                <textarea id="user-question-text" name="user-question-text"></textarea>
-            </p>
-            <button type="submit">Submit</button>
+            <div class="content">
+                <textarea class="form-textarea" id="user-question-text" name="user-question-text" placeholder="Enter question here.."></textarea>
+            </div>
+            <div class="submit-btn">
+                <input type="submit" value="Submit" class="button">
+            </div>
         </form>
     </div>
 

@@ -53,3 +53,46 @@ window.onload = function () {
         )
     }
 }
+
+function validateContactForm() {
+
+    console.log("form submitted");
+    const inputTextDOM = document.getElementById('name');
+    console.log(inputTextDOM.value)
+    const inputEmailDOM = document.getElementById('email');
+    const textAreaDOM = document.getElementById('message');
+    const statusMessageDOM = document.getElementById('status-message');
+
+    //validate name
+    const namePattern = /^[A-Za-z]+$/;
+    let inputName = inputTextDOM.value;
+    if (inputName.trim() == "") {
+        statusMessageDOM.textContent = "Name is empty. Please enter a valid name (letters only)!!"
+        return false;
+    } else if (!namePattern.test(inputName)) { 
+        statusMessageDOM.textContent = "Please enter a valid name (letters only)!!"
+        return false;
+    }
+
+    //validate email address
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    console.log(inputEmailDOM.value);
+    let inputEmail = inputEmailDOM.value;
+    if (inputEmail.trim() == "") {
+        statusMessageDOM.textContent = "Email is empty. Please enter a email address!! "
+        return false;
+    } else  if (!emailPattern.test(inputEmail)) {
+        statusMessageDOM.textContent = "Please enter a valid email address!!"
+        return false;
+    }   
+
+    //validate message
+    let inputTextArea = textAreaDOM.value;
+    if (inputTextArea.trim() == "") {
+        statusMessageDOM.textContent = "Message is empty. Please enter a message!!"
+        return false;
+    }
+
+    alert("Message sent. Thank you!!");
+    return true;
+}

@@ -2,7 +2,7 @@
 
 {% block content %}
 <section id="exercise-banner" class="banner exercise-banner">
-    <div class="container"> 
+    <div class="container">
     </div>
 </section>
 
@@ -14,15 +14,14 @@
             <div class="separator-wrap">
                 <span class="separator separator-one"></span>
                 <span class="separator separator-two"></span>
-            </div>		 
+            </div>
         </div>
         <h3 class="exercise-name">{{ exercise.name }}</h3><br>
         <div class="exercise-detail-grid">
 
-            {% if exercise.level.intermediate|length > 0 %}
             <div class="exercise-detail">
                 <figure class="img-box">
-                    <img src="..\static\img\exercises\{{exercise.id}}\Explanation.jpeg" alt="" class="img" />
+                    <img src="..\static\img\exercises\{{exercise.image}}" alt="Image for {{ exercise.title }}" class="img" />
                 </figure>
                 <div class="content">
                     <h3>Explanation</h3>
@@ -33,11 +32,10 @@
                     </ol>
                 </div>
             </div>
-            {% endif %}
 
             <div class="exercise-detail">
                 <figure class="img-box">
-                    <img src="..\static\img\exercises\{{exercise.id}}\beginner.jpeg" alt="" class="img" />
+                    <img src="..\static\img\exercises\beginner.jpeg" alt="Beginner test image" class="img" />
                 </figure>
                 <div class="content">
                     <h3>Beginner Level</h3>
@@ -51,7 +49,7 @@
             {% if exercise.level.intermediate|length > 0 %}
             <div class="exercise-detail">
                 <figure class="img-box">
-                    <img src="..\static\img\exercises\{{exercise.id}}\intermediate.jpeg" alt="" class="img" />
+                    <img src="..\static\img\exercises\{{exercise.id}}\intermediate.jpeg" alt="Intermediate test image" class="img" />
                 </figure>
                 <div class="content">
                     <h3>Intermediate Level</h3>
@@ -67,7 +65,7 @@
             {% if exercise.level.advanced|length > 0 %}
             <div class="exercise-detail">
                 <figure class="img-box">
-                    <img src="..\static\img\exercises\{{exercise.id}}\advanced.jpeg" alt="" class="img" />
+                    <img src="..\static\img\exercises\{{exercise.id}}\advanced.jpeg" alt="Advanced test image" class="img" />
                 </figure>
                 <div class="content">
                     <h3>Advanced Level</h3>
@@ -79,10 +77,10 @@
                 </div>
             </div>
             {% endif %}
-            
+
             <div class="exercise-detail">
                 <figure class="img-box">
-                    <img src="..\static\img\exercises\{{exercise.id}}\breathing.jpeg" alt="" class="img" />
+                    <img src="..\static\img\exercises\{{exercise.id}}\breathing.jpeg" alt="Breathing image" class="img" />
                 </figure>
                 <div class="content">
                     <h3>Breathing technique</h3>
@@ -94,10 +92,6 @@
 
                 </div>
             </div>
-        </div>
-
-        <div class="exercise-list">
-
         </div>
     </div>
 </section>

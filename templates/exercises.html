@@ -16,11 +16,11 @@
                 <span class="separator separator-two"></span>
             </div>		 
         </div>
-        
+
         <div class="exercises-grid">
             {% for exercise in exercise_list %}
                 <div class="exercise">
-                    <img src="../static/img/banner_general.jpg" alt="" class="content-img" />
+                    <img src="static\img\exercises\{{ exercise.image }}" alt="Image for {{ exercise.title }}" class="content-img" />
                     <div class="content">
 
                         <div class="exercise-title">
